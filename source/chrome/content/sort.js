@@ -46,7 +46,8 @@ var SortPlacesSort = {
 	defaults: Components.classes["@mozilla.org/preferences-service;1"]
 										  .getService(Components.interfaces.nsIPrefService)
 									 		.getDefaultBranch("extensions.sortplaces."),
-	sp_descAnno: "bookmarkProperties/description",
+	SP_LMANNO_FEEDURI: "livemark/feedURI",
+  sp_descAnno: "bookmarkProperties/description",
 	sp_sortBy: ["sort_name_m0", "unsorted_m1", "sort_name_m2"],
 	sp_text: [true, true],
 	sp_caseInsensitive: [false, false, false],
@@ -338,9 +339,9 @@ var SortPlacesSort = {
 			if (PlacesUtils.nodeIsQuery(child)) {
 				item.order = this.sp_queryOrder;
 			}
-//			else if (PlacesUtils.nodeIsLivemarkContainer(child)) {
-//				item.order = this.sp_livemarkOrder;
-//			}
+			else if (SortPlacesSort.nodeIsLivemarkContainer(child)) {
+				item.order = this.sp_livemarkOrder;
+			}
 			else if (PlacesUtils.nodeIsBookmark(child)) {
 				item.order = this.sp_bookmarkOrder;
 			}
@@ -519,5 +520,17 @@ var SortPlacesSort = {
 		}
 
 		return result;
-	}
+	},
+    //inserted by GR
+    //Helper to replace PlacesUtils.nodeIsLivemarkContainer which was removed by Mozilla
+  
+  nodeIsLivemarkContainer: function (aNode) {
+        return PlacesUtils.nodeIsFolder(aNode) && PlacesUtils.annotations.itemHasAnnotation(aNode.itemId, SortPlacesSort.SP_LMANNO_FEEDURI); 
+    },
+    //inserted by GR
+    //Helper to replace PlacesUtils.nodeIsLivemark which was removed by Mozilla
+  isLivemark: function (aNode) {
+        return PlacesUtils.annotations.itemHasAnnotation(aNode.itemId, SortPlacesSort.SP_LMANNO_FEEDURI); 
+    }
+  
 };

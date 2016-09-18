@@ -40,7 +40,7 @@
 
 <dialog id="sortplacesOptions"
         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
-        title="&sp_title; 1.9.2B"
+        title="&sp_title; 1.9.2"
         buttons="accept,cancel"
         onload="SortPlaces.onDialogLoad();"
         ondialogaccept="return SortPlaces.onDialogAccept();"

@@ -5,7 +5,7 @@
 	<Description about="urn:mozilla:install-manifest">
     <em:id>sortplaces@andyhalford.com</em:id>
     <em:name>SortPlaces</em:name>
-    <em:version>1.9.2B</em:version>
+    <em:version>1.9.3</em:version>
 
     <em:type>2</em:type>
     <em:homepageURL>http://www.andyhalford.com/sortplaces/index.html</em:homepageURL>
@@ -14,6 +14,7 @@
     <em:optionsURL>chrome://sortplaces/content/options.xul</em:optionsURL>
 
     <em:creator>Andy Halford</em:creator>
+    <em:contributor>Gerd Roethig</em:contributor>
     <em:translator>Goofy (fr)</em:translator>
     <em:translator>Leszek (teo) Zyczkowski (pl)</em:translator>
     <em:translator>PiVV (ru-RU)</em:translator>
@@ -36,7 +37,7 @@
 			<Description>
 				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
 				<em:minVersion>3.0</em:minVersion>
-				<em:maxVersion>22.*</em:maxVersion>
+				<em:maxVersion>93.*</em:maxVersion>
 			</Description>
 		</em:targetApplication>
 
@@ -48,6 +49,14 @@
 				<em:maxVersion>2.10.*</em:maxVersion>
 			</Description>
 		</em:targetApplication>
-
+    
+    <!--K-Meleon-->
+    <em:targetApplication>
+      <Description>
+        <em:id>{944df56f-c0ec-4d7b-94b6-f625c8cc96ea}</em:id>
+        <em:minVersion>74.0</em:minVersion>
+        <em:maxVersion>78.0</em:maxVersion>
+      </Description>
+    </em:targetApplication>
 	</Description>
 </RDF>
