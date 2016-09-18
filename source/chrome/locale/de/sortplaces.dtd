@@ -1,0 +1,58 @@
+<!ENTITY sp_title "SortPlaces">
+<!ENTITY sp_tooltip "Lesezeichen sortieren">
+<!ENTITY sp "Lesezeichen sortieren">
+<!ENTITY options "Einstellungen">
+<!ENTITY left_click "Linksklick: Lesezeichen jetzt sortieren">
+<!ENTITY other_click "Rechtsklick: Einstellungen aufrufen">
+<!ENTITY autosort "Automatische Sortierung">
+<!ENTITY autosort_tooltip "Lesezeichen automatisch nach Änderungen sortieren">
+<!ENTITY delay "Verzögerung (in Sek.)">
+<!ENTITY delay_tooltip "Die automatische Sortierung wird um den eingestellten Wert verzögern ausgeführt">
+<!ENTITY sort_folders "Ordner separat sortieren">
+<!ENTITY sortfolders_tooltip "Erlaubt eine abweichende Sortierreihenfolge von Ordnern gegenüber anderen Einträgen">
+<!ENTITY include_folders "Einzuschließende Ordner auswählen">
+<!ENTITY includefolders_tooltip "Lesezeichen-Ordner zum Sortieren auswählen">
+<!ENTITY exclude_folders "Auszuschließende Ordner auswählen">
+<!ENTITY excludefolders_tooltip "Lesezeichen-Ordner auswählen der von der Sortierung ausgeschlossen werden soll">
+<!ENTITY selectfolder_button "Ordner auswählen">
+<!ENTITY selection_default "Standardmäßig werden alle Lesezeichen sortiert">
+<!ENTITY folder_title "Ordner auswählen">
+<!ENTITY display "Anzeigeeinstellungen">
+<!ENTITY show_bm "Lesezeichen-Menü">
+<!ENTITY showbm_tooltip "Einstellungen von &quot;SyncPlaces&quot; im Menü &quot;Lesezeichen&quot; anzeigen">
+<!ENTITY show_tools "Menü &quot;Extras&quot;">
+<!ENTITY showtools_tooltip "Einstellungen von &quot;SortPlaces&quot; im Menü &quot;Extras&quot; anzeigen">
+<!ENTITY show_org "Lesezeichen-Verwaltung">
+<!ENTITY showorg_tooltip "Einstellungen von &quot;SortPlaces&quot; im der Lesezeichen-Verwaltung (Bibliothek) anzeigen">
+<!ENTITY show_manage "Lesezeichen verwalten">
+<!ENTITY showmanage_tooltip "Im Menü der Symbolleiste &quot;Lesezeichen verwalten&quot; anzeigen">
+<!ENTITY menu "Lesezeichen-Menü">
+<!ENTITY toolbar "Lesezeichen-Symbolleiste">
+<!ENTITY unfiled "Unsortierte Lesezeichen">
+<!ENTITY sort_by "Sortieren nach">
+<!ENTITY sort_folder_by "Ordner sortieren nach">
+<!ENTITY sort_item_by "Einträge erst sortieren nach">
+<!ENTITY then_item_by "dann sortieren nach">
+<!ENTITY reverse_sort "Umgekehrte Reihenfolge">
+<!ENTITY reversesort_tooltip "Namen in absteigender Reihenfolge sortieren">
+<!ENTITY case_insensitive "Groß-/Kleinschreibung nicht berücksichtigen">
+<!ENTITY caseinsensitive_tooltip "Groß-/Kleinschreibung beim Sortieren ignorieren">
+<!ENTITY date_added "Hinzugefügt">
+<!ENTITY dateadded_tooltip "Sortiert nach dem Hinzufügedatum des Lesezeichens">
+<!ENTITY unsorted "Unsortiert">
+<!ENTITY name "Name">
+<!ENTITY description "Beschreibung">
+<!ENTITY keyword "Schlüsselwort">
+<!ENTITY last_modified "Zuletzt geändert">
+<!ENTITY last_visit "Zuletzt besucht">
+<!ENTITY visit_count "Meistbesucht">
+<!ENTITY location "Adresse">
+<!ENTITY sort_order "Sortierprioritäten">
+<!ENTITY folder_order "Sortierung der Ordner">
+<!ENTITY precedence_tooltip "Niedrigere Werte haben eine höhere Priorität">
+<!ENTITY query_precedence "Suchanfragen">
+<!ENTITY folder_precedence "Ordner">
+<!ENTITY livemark_precedence "Dynamische Lesezeichen">
+<!ENTITY bookmark_precedence "Lesezeichen">
+<!ENTITY dialog_title "Hinweis">
+<!ENTITY report_error "Problemmeldung">

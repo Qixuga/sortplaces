@@ -1,0 +1,58 @@
+<!ENTITY sp_title "Yer İmlerini Sırala">
+<!ENTITY sp_tooltip "Yer imlerini sıraya göre düzenle">
+<!ENTITY sp "Yer imlerini sırala">
+<!ENTITY options "Seçenekler">
+<!ENTITY left_click "Sol-tık: Yer imlerini sırala">
+<!ENTITY other_click "Diğer-tık: Seçenekleri ayarla">
+<!ENTITY autosort "Otomatik sıralama etkin">
+<!ENTITY autosort_tooltip "Yer imleri değiştiğinde otomatik sırala">
+<!ENTITY delay "Gecikme süresi">
+<!ENTITY delay_tooltip "Otomatik sıralamadan önceki gecikme saniyesi">
+<!ENTITY sort_folders "Klasörleri ayrı olarak sırala">
+<!ENTITY sortfolders_tooltip "Diğer öğelerdeki farklılıklara göre klasörleri sırala">
+<!ENTITY include_folders "Select folders to include">
+<!ENTITY includefolders_tooltip "Select the bookmark folders to sort">
+<!ENTITY exclude_folders "Select folders to exclude">
+<!ENTITY excludefolders_tooltip "Sıralarken hariç tutulacak yer imi klasörlerini seçin">
+<!ENTITY selectfolder_button "Klasörü seç">
+<!ENTITY selection_default "By default, everything will be included">
+<!ENTITY folder_title "Klasörleri seç">
+<!ENTITY display "Görünüm seçenekleri">
+<!ENTITY show_bm "Yer İmleri menüsü">
+<!ENTITY showbm_tooltip "Yer İmleri menüsünde seçenekleri göster">
+<!ENTITY show_tools "Araçlar menüsü">
+<!ENTITY showtools_tooltip "Araçlar menüsünde seçenekleri göster">
+<!ENTITY show_org "Yer İmleri Düzenleyici">
+<!ENTITY showorg_tooltip "Yer İmleri Düzenleyicide seçenekleri göster">
+<!ENTITY show_manage "Manage Bookmarks">
+<!ENTITY showmanage_tooltip "Display on Manage Bookmarks Tools menu">
+<!ENTITY menu "Menü">
+<!ENTITY toolbar "Araç Çubuğu">
+<!ENTITY unfiled "Sınıflandırılmamış">
+<!ENTITY sort_by "Sıralama ölçütü">
+<!ENTITY sort_folder_by "Klasörlere göre sırala">
+<!ENTITY sort_item_by "Öğelere göre sırala">
+<!ENTITY then_item_by "Sonraki öğelere göre sırala">
+<!ENTITY reverse_sort "Ters sırada">
+<!ENTITY reversesort_tooltip "Ters sırada sırala">
+<!ENTITY case_insensitive "Büyük küçük harfe duyarsız">
+<!ENTITY caseinsensitive_tooltip "Sıralarken büyük küçük harfleri yoksay">
+<!ENTITY date_added "Eklenme tarihi">
+<!ENTITY dateadded_tooltip "Eklenme tarihine göre sırala">
+<!ENTITY unsorted "Sıralanmamış">
+<!ENTITY name "İsim">
+<!ENTITY description "Açıklama">
+<!ENTITY keyword "Anahtar kelime">
+<!ENTITY last_modified "Son değişiklik">
+<!ENTITY last_visit "Son ziyaret">
+<!ENTITY visit_count "Ziyaret sayısı">
+<!ENTITY location "Konum">
+<!ENTITY sort_order "Sıralama önceliği">
+<!ENTITY folder_order "Klasör sıralama">
+<!ENTITY precedence_tooltip "Küçük sayılar daha önceliğe sahiptir">
+<!ENTITY query_precedence "Sorgular">
+<!ENTITY folder_precedence "Klasörler">
+<!ENTITY livemark_precedence "Canlı yer imleri">
+<!ENTITY bookmark_precedence "Yer imleri">
+<!ENTITY dialog_title "Uyarı">
+<!ENTITY report_error "Hata Raporla">

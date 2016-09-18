@@ -1,0 +1,58 @@
+<!ENTITY sp_title "SortPlaces">
+<!ENTITY sp_tooltip "Сортировка закладок">
+<!ENTITY sp "Сортировать закладки">
+<!ENTITY options "Настройки">
+<!ENTITY left_click "Щелчок левой кнопкой: Сортировать закладки">
+<!ENTITY other_click "Прочие щелчки: Настройка параметров">
+<!ENTITY autosort "Сортировать автоматически">
+<!ENTITY autosort_tooltip "Автоматически сортирует закладки при их изменении">
+<!ENTITY delay "Задержка">
+<!ENTITY delay_tooltip "Задержка в секундах перед автоматической сортировкой">
+<!ENTITY sort_folders "Папки сортировать отдельно">
+<!ENTITY sortfolders_tooltip "Позволяет сортировать папки в порядке отличном от остальных элементов">
+<!ENTITY include_folders "Включить в сортировку выбранные папки">
+<!ENTITY includefolders_tooltip "Выберите папки закладок для сортировки">
+<!ENTITY exclude_folders "Исключить из сортировки выбранные папки">
+<!ENTITY excludefolders_tooltip "Выберите папки закладок, чтобы исключить их из сортировки">
+<!ENTITY selectfolder_button "Выбрать папки">
+<!ENTITY selection_default "По умолчанию будут отсортированы все папки">
+<!ENTITY folder_title "Выбор папок">
+<!ENTITY display "Настройки отображения">
+<!ENTITY show_bm "Меню «Закладки»">
+<!ENTITY showbm_tooltip "Показывает элемент SortPlaces в меню «Закладки»">
+<!ENTITY show_tools "Меню «Инструменты»">
+<!ENTITY showtools_tooltip "Показывает элемент SortPlaces в меню «Инструменты»">
+<!ENTITY show_org "Менеджер закладок">
+<!ENTITY showorg_tooltip "Показывает элемент SortPlaces в менеджере закладок">
+<!ENTITY show_manage "Управление закладками">
+<!ENTITY showmanage_tooltip "Отображает в меню «Инструменты» пункт «Управление закладками»">
+<!ENTITY menu "Меню">
+<!ENTITY toolbar "Панель">
+<!ENTITY unfiled "Неподшитые">
+<!ENTITY sort_by "Сортировать по">
+<!ENTITY sort_folder_by "Сортировать папки по">
+<!ENTITY sort_item_by "Сортировать элементы по">
+<!ENTITY then_item_by "а затем элементы по">
+<!ENTITY reverse_sort "В обратном порядке">
+<!ENTITY reversesort_tooltip "Сортирует в обратном порядке">
+<!ENTITY case_insensitive "Без учёта регистра">
+<!ENTITY caseinsensitive_tooltip "При сортировке прописные и строчные буквы не различаются">
+<!ENTITY date_added "дате добавления">
+<!ENTITY dateadded_tooltip "Сортирует по дате добавления">
+<!ENTITY unsorted "не сортировать">
+<!ENTITY name "имени">
+<!ENTITY description "описанию">
+<!ENTITY keyword "ключевым словам">
+<!ENTITY last_modified "дате последнего изменения">
+<!ENTITY last_visit "дате последнего посещения">
+<!ENTITY visit_count "счётчику посещений">
+<!ENTITY location "адресу">
+<!ENTITY sort_order "Порядок сортировки">
+<!ENTITY folder_order "Упорядочение папок">
+<!ENTITY precedence_tooltip "Меньшие значения имеют больший приоритет при выполнении">
+<!ENTITY query_precedence "Запросы">
+<!ENTITY folder_precedence "Папки">
+<!ENTITY livemark_precedence "Ленты новостей">
+<!ENTITY bookmark_precedence "Закладки">
+<!ENTITY dialog_title "Предупреждение">
+<!ENTITY report_error "Уведомление об ошибке">

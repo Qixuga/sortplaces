@@ -1,0 +1,37 @@
+content  sortplaces  chrome/content/
+
+skin     sortplaces  	classic/1.0  chrome/skin/common/
+skin     sortplaces-os  classic/1.0  chrome/skin/common/
+skin     sortplaces-os  classic/1.0  chrome/skin/mac3/	 os=Darwin application={ec8030f7-c20a-464f-9b0e-13a3a9e97384} appversion<4.0b1
+skin     sortplaces-os  classic/1.0  chrome/skin/mac/	   os=Darwin application={ec8030f7-c20a-464f-9b0e-13a3a9e97384} appversion>=4.0b1
+skin     sortplaces-os  classic/1.0  chrome/skin/win/  	 os=WINNT  application={ec8030f7-c20a-464f-9b0e-13a3a9e97384} appversion>=4.0b1
+skin     sortplaces-os  classic/1.0  chrome/skin/seawin/ application={92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}
+
+overlay  chrome://browser/content/browser.xul  chrome://sortplaces/content/sortplaces.xul
+overlay  chrome://navigator/content/navigator.xul  chrome://sortplaces/content/sortplaces.xul
+overlay  chrome://browser/content/places/places.xul chrome://sortplaces/content/orgmenu.xul
+overlay  chrome://communicator/content/bookmarks/bookmarksManager.xul chrome://sortplaces/content/orgmenu.xul
+overlay  chrome://browser/content/customizeToolbar.xul  chrome://sortplaces/content/sortplaces.xul
+style    chrome://global/content/customizeToolbar.xul  chrome://sortplaces/skin/sortplaces.css
+
+locale   sortplaces  en-US  chrome/locale/en-US/
+locale   sortplaces  en-GB  chrome/locale/en-GB/
+locale   sortplaces  fr     chrome/locale/fr/
+locale   sortplaces  pl     chrome/locale/pl/
+locale   sortplaces  ru-RU  chrome/locale/ru-RU/
+locale   sortplaces  de     chrome/locale/de/
+locale   sortplaces  pt-BR  chrome/locale/pt-BR/
+locale   sortplaces  pt-PT  chrome/locale/pt-PT/
+locale   sortplaces  ko-KR  chrome/locale/ko-KR/
+locale   sortplaces  es-ES  chrome/locale/es-ES/
+locale   sortplaces  uk-UA  chrome/locale/uk-UA/
+locale   sortplaces  tr     chrome/locale/tr/
+locale   sortplaces  da     chrome/locale/da/
+locale   sortplaces  zh-CN  chrome/locale/zh-CN/
+locale   sortplaces  zh-TW  chrome/locale/zh-TW/
+locale   sortplaces  sv-SE  chrome/locale/sv-SE/
+locale   sortplaces  it     chrome/locale/it/
+
+style		chrome://sortplaces/content/folders.xul	chrome://communicator/content/places/places.css			application={92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}
+style		chrome://sortplaces/content/folders.xul	chrome://communicator/skin/bookmarks/bookmarks.css	application={92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}
+overlay	chrome://sortplaces/content/folders.xul	chrome://communicator/content/bookmarks/placesOverlay.xul	application={92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}

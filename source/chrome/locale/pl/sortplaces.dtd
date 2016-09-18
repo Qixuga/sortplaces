@@ -1,0 +1,58 @@
+<!ENTITY sp_title "SortPlaces">
+<!ENTITY sp_tooltip "Sortuje zakładki">
+<!ENTITY sp "Sortuj zakładki">
+<!ENTITY options "Ustawienia">
+<!ENTITY left_click "Kliknięcie l.p.m.: Sortuj zakładki">
+<!ENTITY other_click "Kliknięcie innym p.m.: Ustawienia">
+<!ENTITY autosort "Sortuj automatycznie">
+<!ENTITY autosort_tooltip "Automatycznie wykonuje sortowanie po zmianie zakładek">
+<!ENTITY delay "Opóźnienie">
+<!ENTITY delay_tooltip "Czas w sekundach przed rozpoczęciem automatycznego sortowania">
+<!ENTITY sort_folders "Sortuj foldery oddzielnie">
+<!ENTITY sortfolders_tooltip "Umożliwia sortowanie folderu w innej kolejności niż pozostałych elementów">
+<!ENTITY include_folders "Wybierz foldery do sortowania">
+<!ENTITY includefolders_tooltip "Wybierz foldery zakładek do sortowania">
+<!ENTITY exclude_folders "Wybierz foldery do wykluczenia">
+<!ENTITY excludefolders_tooltip "Wybierz foldery zakładek do wykluczenia z sortowania">
+<!ENTITY selectfolder_button "Wybierz foldery do sortowania">
+<!ENTITY selection_default "Domyślnie sortuj wszystko">
+<!ENTITY folder_title "Wybierz foldery">
+<!ENTITY display "Wyświetlanie elementu „Sortuj zakładki”">
+<!ENTITY show_bm "W menu Zakładki">
+<!ENTITY showbm_tooltip "Wyświetla element „Sortuj zakładki” w menu Zakładki">
+<!ENTITY show_tools "W menu Narzędzia">
+<!ENTITY showtools_tooltip "Wyświetla element „Sortuj zakładki” w menu Narzędzia">
+<!ENTITY show_org "W Bibliotece">
+<!ENTITY showorg_tooltip "Wyświetla element „Sortuj zakładki” w Bibliotece">
+<!ENTITY show_manage "Zarządzaj zakładkami">
+<!ENTITY showmanage_tooltip "Wyświetla element „Zarządzaj zakładkami” w menu Narzędzia">
+<!ENTITY menu "Menu">
+<!ENTITY toolbar "Pasek narzędzi">
+<!ENTITY unfiled "Nie wypełnione">
+<!ENTITY sort_by "Sortuj wg">
+<!ENTITY sort_folder_by "Sortuj foldery wg">
+<!ENTITY sort_item_by "Sortuj elementy wg">
+<!ENTITY then_item_by "Elementy wg">
+<!ENTITY reverse_sort "Odwróć kierunek">
+<!ENTITY reversesort_tooltip "Sortuje w odwróconej kolejności nazw">
+<!ENTITY case_insensitive "Rozróżniaj wielkość liter">
+<!ENTITY caseinsensitive_tooltip "Nie uwzględniaj wielkości liter podczas sortowania">
+<!ENTITY date_added "daty dodania">
+<!ENTITY dateadded_tooltip "Sortuje wg daty dodania">
+<!ENTITY unsorted "nieposortowane">
+<!ENTITY name "nazwy">
+<!ENTITY description "opisu">
+<!ENTITY keyword "słowa kluczowego">
+<!ENTITY last_modified "daty ostatniej modyfikacji">
+<!ENTITY last_visit "daty odwiedzin">
+<!ENTITY visit_count "liczby odwiedzin">
+<!ENTITY location "adresu">
+<!ENTITY sort_order "Opcje sortowania">
+<!ENTITY folder_order "Sortowanie folderu">
+<!ENTITY precedence_tooltip "Mniejsze liczby mają większy priorytet">
+<!ENTITY query_precedence "Zapytania">
+<!ENTITY folder_precedence "Foldery">
+<!ENTITY livemark_precedence "Dynamiczne zakładki">
+<!ENTITY bookmark_precedence "Zakładki">
+<!ENTITY dialog_title "Alarm">
+<!ENTITY report_error "Powiadom o problemie">

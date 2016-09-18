@@ -1,0 +1,58 @@
+<!ENTITY sp_title "SortPlaces">
+<!ENTITY sp_tooltip "Sortera bokmärken">
+<!ENTITY sp "Sortera bokmärken">
+<!ENTITY options "Inställningar">
+<!ENTITY left_click "Vänsterklick: Sortera bokmärken">
+<!ENTITY other_click "Annat klick: Öppna &quot;Inställningar&quot;">
+<!ENTITY autosort "Sortera automatiskt">
+<!ENTITY autosort_tooltip "Sortera automatiskt när bokmärken ändras">
+<!ENTITY delay "Fördröjning (s)">
+<!ENTITY delay_tooltip "Fördröjning i sekunder innan automatisk sortering inleds">
+<!ENTITY sort_folders "Sortera mappar separat">
+<!ENTITY sortfolders_tooltip "Tillåt att sorteringsordningen för mappar är skild från övriga objekt">
+<!ENTITY include_folders "Välj mappar som skall inkluderas">
+<!ENTITY includefolders_tooltip "Välj de bokmärkesmappar som skall sorteras">
+<!ENTITY exclude_folders "Välj mappar som skall exkluderas">
+<!ENTITY excludefolders_tooltip "Välj de bokmärkesmappar som skall undantas från sorteringen">
+<!ENTITY selectfolder_button "Välj mappar">
+<!ENTITY selection_default "Som standard kommer allting att inkluderas">
+<!ENTITY folder_title "Välj mappar">
+<!ENTITY display "Visningsalternativ">
+<!ENTITY show_bm "Bokmärken-menyn">
+<!ENTITY showbm_tooltip "Visa menyobjekt i Bokmärken-menyn">
+<!ENTITY show_tools "Verktyg-menyn">
+<!ENTITY showtools_tooltip "Visa menyobjekt i Verktyg-menyn">
+<!ENTITY show_org "Biblioteket">
+<!ENTITY showorg_tooltip "Visa menyradsobjekt i Biblioteket">
+<!ENTITY show_manage "Hantera bokmärken">
+<!ENTITY showmanage_tooltip "Visa i Verktyg-menyn i &quot;Hantera bokmärken&quot;">
+<!ENTITY menu "Meny">
+<!ENTITY toolbar "Verktygsfält">
+<!ENTITY unfiled "Osorterade">
+<!ENTITY sort_by "Sortera efter">
+<!ENTITY sort_folder_by "Sortera mappar efter">
+<!ENTITY sort_item_by "Sortera först objekt efter">
+<!ENTITY then_item_by "Därefter objekt efter">
+<!ENTITY reverse_sort "Omvänd ordning">
+<!ENTITY reversesort_tooltip "Sortera i omvänd ordning">
+<!ENTITY case_insensitive "Ej skiftlägeskänslig">
+<!ENTITY caseinsensitive_tooltip "Ignorera skiftläge vid sortering">
+<!ENTITY date_added "Tilläggsdatum">
+<!ENTITY dateadded_tooltip "Sortera efter tilläggsdatum">
+<!ENTITY unsorted "Inte sorterad">
+<!ENTITY name "Namn">
+<!ENTITY description "Beskrivning">
+<!ENTITY keyword "Nyckelord">
+<!ENTITY last_modified "Senast ändrad">
+<!ENTITY last_visit "Senaste besök">
+<!ENTITY visit_count "Antal besök">
+<!ENTITY location "URL">
+<!ENTITY sort_order "Sorteringsordning">
+<!ENTITY folder_order "Mappsortering">
+<!ENTITY precedence_tooltip "Lägre siffror har högre prioritet">
+<!ENTITY query_precedence "Frågor">
+<!ENTITY folder_precedence "Mappar">
+<!ENTITY livemark_precedence "Aktiva bokmärken">
+<!ENTITY bookmark_precedence "Bokmärken">
+<!ENTITY dialog_title "Varning">
+<!ENTITY report_error "Rapportera problem">

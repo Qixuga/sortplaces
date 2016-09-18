@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dialog SYSTEM "chrome://sortplaces/locale/sortplaces.dtd">
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://sortplaces-os/skin/sortplaces.css" type="text/css"?>
+
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1/GPL 2.0/LGPL 2.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is the SortPlaces extension.
+   -
+   - The Initial Developer of the Original Code is Andy Halford.
+   - Portions created by the Initial Developer are Copyright (C) 2008-2011
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -
+   - Alternatively, the contents of this file may be used under the terms of
+   - either the GNU General Public License Version 2 or later (the "GPL"), or
+   - the GNU Lesser General Public License Version 2.1 or later (the "LGPL"),
+   - in which case the provisions of the GPL or the LGPL are applicable instead
+   - of those above. If you wish to allow use of your version of this file only
+   - under the terms of either the GPL or the LGPL, and not to allow others to
+   - use your version of this file under the terms of the MPL, indicate your
+   - decision by deleting the provisions above and replace them with the notice
+   - and other provisions required by the LGPL or the GPL. If you do not delete
+   - the provisions above, a recipient may use your version of this file under
+   - the terms of any one of the MPL, the GPL or the LGPL.
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+<dialog id="sortplacesOptions"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+        title="&sp_title; 1.9.2B"
+        buttons="accept,cancel"
+        onload="SortPlaces.onDialogLoad();"
+        ondialogaccept="return SortPlaces.onDialogAccept();"
+        ondialogcancel="return SortPlaces.onDialogCancel();"
+        persist="screenX screenY">
+
+  <script type="application/x-javascript" src="chrome://sortplaces/content/sortplaces.js" />
+  <script type="application/x-javascript" src="chrome://sortplaces/content/sort.js" />
+
+	<hbox align="center" class="sortplacesLink">
+		<image />
+		<label class="text-link"
+		 	href="http://www.andyhalford.com/sortplaces"
+		 	value="http://www.andyhalford.com/sortplaces" />
+	</hbox>
+
+	<tabbox>
+		<tabs id="mainTabs">
+			<tab label="&sort_order;" id="SortOrder"/>
+			<tab label="&options;" id="Options"/>
+		</tabs>
+		<tabpanels>
+			<tabpanel orient="vertical">
+				<tabbox>
+					<tabs id="sortTabs">
+						<tab label="&menu;" id="Menu"/>
+						<tab label="&toolbar;" id="Toolbar"/>
+						<tab label="&unfiled;" id="Unfiled"/>
+					</tabs>
+					<tabpanels>
+						<tabpanel orient="vertical">
+							<tabbox>
+								<tabs id="menuTabs">
+									<tab label="&sort_item_by;" id="SortMenu"/>
+									<tab label="&then_item_by;" id="ThenMenuBy"/>
+									<tab label="&sort_folder_by;" id="SortFolderMenu"/>
+								</tabs>
+								<tabpanels>
+									<tabpanel orient="vertical">
+										<groupbox>
+											<hbox align="center">
+												<label control="sort_by_m0" value="&sort_by;" />
+												<menulist id="sort_by_m0" oncommand="SortPlaces.toggleSortOptions();" >
+													<menupopup>
+														<menuitem label="&unsorted;" value="unsorted_m0"/>
+														<menuitem label="&name;" value="sort_name_m0"/>
+														<menuitem label="&location;" value="sort_location_m0"/>
+														<menuitem label="&last_visit;" value="sort_last_visit_m0"/>
+														<menuitem label="&visit_count;" value="sort_visit_count_m0"/>
+														<menuitem label="&keyword;" value="sort_keyword_m0"/>
+														<menuitem label="&description;" value="sort_description_m0"/>
+														<menuitem label="&date_added;" value="sort_date_added_m0"/>
+														<menuitem label="&last_modified;" value="sort_last_modified_m0"/>
+													</menupopup>
+												</menulist>
+											</hbox>
+											<hbox>
+												<checkbox id="reverse_sort_m0" label="&reverse_sort;" tooltiptext="&reversesort_tooltip;" />
+												<checkbox id="case_insensitive_m0" label="&case_insensitive;" tooltiptext="&caseinsensitive_tooltip;" />
+											</hbox>
+										</groupbox>
+									</tabpanel>
+									<tabpanel orient="vertical">
+										<groupbox>
+											<hbox align="center">
+												<label control="sort_by_m1" value="&sort_by;" />
+												<menulist id="sort_by_m1" oncommand="SortPlaces.toggleSortOptions();" >
+													<menupopup>
+														<menuitem label="&unsorted;" value="unsorted_m1"/>
+														<menuitem label="&name;" value="sort_name_m1"/>
+														<menuitem label="&location;" value="sort_location_m1"/>
+														<menuitem label="&last_visit;" value="sort_last_visit_m1"/>
+														<menuitem label="&visit_count;" value="sort_visit_count_m1"/>
+														<menuitem label="&keyword;" value="sort_keyword_m1"/>
+														<menuitem label="&description;" value="sort_description_m1"/>
+														<menuitem label="&date_added;" value="sort_date_added_m1"/>
+														<menuitem label="&last_modified;" value="sort_last_modified_m1"/>
+													</menupopup>
+												</menulist>
+											</hbox>
+											<hbox>
+												<checkbox id="reverse_sort_m1" label="&reverse_sort;" tooltiptext="&reversesort_tooltip;" />
+												<checkbox id="case_insensitive_m1" label="&case_insensitive;" tooltiptext="&caseinsensitive_tooltip;" />
+											</hbox>
+										</groupbox>
+									</tabpanel>
+									<tabpanel orient="vertical">
+										<groupbox>
+											<hbox align="center">
+												<label control="sort_by_m2" value="&sort_by;" />
+												<menulist id="sort_by_m2" oncommand="SortPlaces.toggleSortOptions();" >
+													<menupopup>
+														<menuitem label="&unsorted;" value="unsorted_m2"/>
+														<menuitem label="&name;" value="sort_name_m2"/>
+														<menuitem label="&description;" value="sort_description_m2"/>
+														<menuitem label="&date_added;" value="sort_date_added_m2"/>
+														<menuitem label="&last_modified;" value="sort_last_modified_m2"/>
+													</menupopup>
+												</menulist>
+											</hbox>
+											<hbox>
+												<checkbox id="reverse_sort_m2" label="&reverse_sort;" tooltiptext="&reversesort_tooltip;" />
+												<checkbox id="case_insensitive_m2" label="&case_insensitive;" tooltiptext="&caseinsensitive_tooltip;" />
+											</hbox>
+										</groupbox>
+									</tabpanel>
+								</tabpanels>
+							</tabbox>
+							<groupbox>
+								<caption label="&folder_order;"/>
+								<grid>
+									<rows>
+										<row align="center">
+											<label control="query_precedence_m" value="&query_precedence;" />
+											<textbox id="query_precedence_m" size="1" maxlength="1" type="number" min="1" max="4" tooltiptext="&precedence_tooltip;" />
+											<label control="folder_precedence_m" value="&folder_precedence;" />
+											<textbox id="folder_precedence_m" size="1" maxlength="1" type="number" min="1" max="4" tooltiptext="&precedence_tooltip;" />
+										</row>
+										<row align="center">
+											<label control="livemark_precedence_m" value="&livemark_precedence;" />
+											<textbox id="livemark_precedence_m" size="1" maxlength="1" type="number" min="1" max="4" tooltiptext="&precedence_tooltip;" />
+											<label control="bookmark_precedence_m" value="&bookmark_precedence;" />
+											<textbox id="bookmark_precedence_m" size="1" maxlength="1" type="number" min="1" max="4" tooltiptext="&precedence_tooltip;" />
+										</row>
+									</rows>
+								</grid>
+							</groupbox>
+						</tabpanel>
+						<tabpanel orient="vertical">
+							<tabbox>
+								<tabs id="toolbarTabs">
+									<tab label="&sort_item_by;" id="SortToolbar"/>
+									<tab label="&then_item_by;" id="ThenToolbarBy"/>
+									<tab label="&sort_folder_by;" id="SortFolderToolbar"/>
+								</tabs>
+								<tabpanels>
+									<tabpanel orient="vertical">
+										<groupbox>
+											<hbox align="center">
+												<label control="sort_by_t0" value="&sort_by;" />
+												<menulist id="sort_by_t0" oncommand="SortPlaces.toggleSortOptions();" >
+													<menupopup>
+														<menuitem label="&unsorted;" value="unsorted_t0"/>
+														<menuitem label="&name;" value="sort_name_t0"/>
+														<menuitem label="&location;" value="sort_location_t0"/>
+														<menuitem label="&last_visit;" value="sort_last_visit_t0"/>
+														<menuitem label="&visit_count;" value="sort_visit_count_t0"/>
+														<menuitem label="&keyword;" value="sort_keyword_t0"/>
+														<menuitem label="&description;" value="sort_description_t0"/>
+														<menuitem label="&date_added;" value="sort_date_added_t0"/>
+														<menuitem label="&last_modified;" value="sort_last_modified_t0"/>
+													</menupopup>
+												</menulist>
+											</hbox>
+											<hbox>
+												<checkbox id="reverse_sort_t0" label="&reverse_sort;" tooltiptext="&reversesort_tooltip;" />
+												<checkbox id="case_insensitive_t0" label="&case_insensitive;" tooltiptext="&caseinsensitive_tooltip;" />
+											</hbox>
+										</groupbox>
+									</tabpanel>
+									<tabpanel orient="vertical">
+										<groupbox>
+											<hbox align="center">
+												<label control="sort_by_t1" value="&sort_by;" />
+												<menulist id="sort_by_t1" oncommand="SortPlaces.toggleSortOptions();" >
+													<menupopup>
+														<menuitem label="&unsorted;" value="unsorted_t1"/>
+														<menuitem label="&name;" value="sort_name_t1"/>
+														<menuitem label="&location;" value="sort_location_t1"/>
+														<menuitem label="&last_visit;" value="sort_last_visit_t1"/>
+														<menuitem label="&visit_count;" value="sort_visit_count_t1"/>
+														<menuitem label="&keyword;" value="sort_keyword_t1"/>
+														<menuitem label="&description;" value="sort_description_t1"/>
+														<menuitem label="&date_added;" value="sort_date_added_t1"/>
+														<menuitem label="&last_modified;" value="sort_last_modified_t1"/>
+													</menupopup>
+												</menulist>
+											</hbox>
+											<hbox>
+												<checkbox id="reverse_sort_t1" label="&reverse_sort;" tooltiptext="&reversesort_tooltip;" />
+												<checkbox id="case_insensitive_t1" label="&case_insensitive;" tooltiptext="&caseinsensitive_tooltip;" />
+											</hbox>
+										</groupbox>
+									</tabpanel>
+									<tabpanel orient="vertical">
+										<groupbox>
+											<hbox align="center">
+												<label control="sort_by_t2" value="&sort_by;" />
+												<menulist id="sort_by_t2" oncommand="SortPlaces.toggleSortOptions();" >
+													<menupopup>
+														<menuitem label="&unsorted;" value="unsorted_t2"/>
+														<menuitem label="&name;" value="sort_name_t2"/>
+														<menuitem label="&description;" value="sort_description_t2"/>
+														<menuitem label="&date_added;" value="sort_date_added_t2"/>
+														<menuitem label="&last_modified;" value="sort_last_modified_t2"/>
+													</menupopup>
+												</menulist>
+											</hbox>
+											<hbox>
+												<checkbox id="reverse_sort_t2" label="&reverse_sort;" tooltiptext="&reversesort_tooltip;" />
+												<checkbox id="case_insensitive_t2" label="&case_insensitive;" tooltiptext="&caseinsensitive_tooltip;" />
+											</hbox>
+										</groupbox>
+									</tabpanel>
+								</tabpanels>
+							</tabbox>
+							<groupbox>
+								<caption label="&folder_order;"/>
+								<grid>
+									<rows>
+										<row align="center">
+											<label control="query_precedence_t" value="&query_precedence;" />
+											<textbox id="query_precedence_t" size="1" maxlength="1" type="number" min="1" max="4" tooltiptext="&precedence_tooltip;" />
+											<label control="folder_precedence_t" value="&folder_precedence;" />
+											<textbox id="folder_precedence_t" size="1" maxlength="1" type="number" min="1" max="4" tooltiptext="&precedence_tooltip;" />
+										</row>
+										<row align="center">
+											<label control="livemark_precedence_t" value="&livemark_precedence;" />
+											<textbox id="livemark_precedence_t" size="1" maxlength="1" type="number" min="1" max="4" tooltiptext="&precedence_tooltip;" />
+											<label control="bookmark_precedence_t" value="&bookmark_precedence;" />
+											<textbox id="bookmark_precedence_t" size="1" maxlength="1" type="number" min="1" max="4" tooltiptext="&precedence_tooltip;" />
+										</row>
+									</rows>
+								</grid>
+							</groupbox>
+						</tabpanel>
+						<tabpanel orient="vertical">
+							<tabbox>
+								<tabs id="unfiledTabs">
+									<tab label="&sort_item_by;" id="SortUnfiled"/>
+									<tab label="&then_item_by;" id="ThenUnfiledBy"/>
+									<tab label="&sort_folder_by;" id="SortFolderUnfiled"/>
+								</tabs>
+								<tabpanels>
+									<tabpanel orient="vertical">
+										<groupbox>
+											<hbox align="center">
+												<label control="sort_by_u0" value="&sort_by;" />
+												<menulist id="sort_by_u0" oncommand="SortPlaces.toggleSortOptions();" >
+													<menupopup>
+														<menuitem label="&unsorted;" value="unsorted_u0"/>
+														<menuitem label="&name;" value="sort_name_u0"/>
+														<menuitem label="&location;" value="sort_location_u0"/>
+														<menuitem label="&last_visit;" value="sort_last_visit_u0"/>
+														<menuitem label="&visit_count;" value="sort_visit_count_u0"/>
+														<menuitem label="&keyword;" value="sort_keyword_u0"/>
+														<menuitem label="&description;" value="sort_description_u0"/>
+														<menuitem label="&date_added;" value="sort_date_added_u0"/>
+														<menuitem label="&last_modified;" value="sort_last_modified_u0"/>
+													</menupopup>
+												</menulist>
+											</hbox>
+											<hbox>
+												<checkbox id="reverse_sort_u0" label="&reverse_sort;" tooltiptext="&reversesort_tooltip;" />
+												<checkbox id="case_insensitive_u0" label="&case_insensitive;" tooltiptext="&caseinsensitive_tooltip;" />
+											</hbox>
+										</groupbox>
+									</tabpanel>
+									<tabpanel orient="vertical">
+										<groupbox>
+											<hbox align="center">
+												<label control="sort_by_u1" value="&sort_by;" />
+												<menulist id="sort_by_u1" oncommand="SortPlaces.toggleSortOptions();" >
+													<menupopup>
+														<menuitem label="&unsorted;" value="unsorted_u1"/>
+														<menuitem label="&name;" value="sort_name_u1"/>
+														<menuitem label="&location;" value="sort_location_u1"/>
+														<menuitem label="&last_visit;" value="sort_last_visit_u1"/>
+														<menuitem label="&visit_count;" value="sort_visit_count_u1"/>
+														<menuitem label="&keyword;" value="sort_keyword_u1"/>
+														<menuitem label="&description;" value="sort_description_u1"/>
+														<menuitem label="&date_added;" value="sort_date_added_u1"/>
+														<menuitem label="&last_modified;" value="sort_last_modified_u1"/>
+													</menupopup>
+												</menulist>
+											</hbox>
+											<hbox>
+												<checkbox id="reverse_sort_u1" label="&reverse_sort;" tooltiptext="&reversesort_tooltip;" />
+												<checkbox id="case_insensitive_u1" label="&case_insensitive;" tooltiptext="&caseinsensitive_tooltip;" />
+											</hbox>
+										</groupbox>
+									</tabpanel>
+									<tabpanel orient="vertical">
+										<groupbox>
+											<hbox align="center">
+												<label control="sort_by_u2" value="&sort_by;" />
+												<menulist id="sort_by_u2" oncommand="SortPlaces.toggleSortOptions();" >
+													<menupopup>
+														<menuitem label="&unsorted;" value="unsorted_u2"/>
+														<menuitem label="&name;" value="sort_name_u2"/>
+														<menuitem label="&description;" value="sort_description_u2"/>
+														<menuitem label="&date_added;" value="sort_date_added_u2"/>
+														<menuitem label="&last_modified;" value="sort_last_modified_u2"/>
+													</menupopup>
+												</menulist>
+											</hbox>
+											<hbox>
+												<checkbox id="reverse_sort_u2" label="&reverse_sort;" tooltiptext="&reversesort_tooltip;" />
+												<checkbox id="case_insensitive_u2" label="&case_insensitive;" tooltiptext="&caseinsensitive_tooltip;" />
+											</hbox>
+										</groupbox>
+									</tabpanel>
+								</tabpanels>
+							</tabbox>
+							<groupbox>
+								<caption label="&folder_order;"/>
+								<grid>
+									<rows>
+										<row align="center">
+											<label control="query_precedence_u" value="&query_precedence;" />
+											<textbox id="query_precedence_u" size="1" maxlength="1" type="number" min="1" max="4" tooltiptext="&precedence_tooltip;" />
+											<label control="folder_precedence_u" value="&folder_precedence;" />
+											<textbox id="folder_precedence_u" size="1" maxlength="1" type="number" min="1" max="4" tooltiptext="&precedence_tooltip;" />
+										</row>
+										<row align="center">
+											<label control="livemark_precedence_u" value="&livemark_precedence;" />
+											<textbox id="livemark_precedence_u" size="1" maxlength="1" type="number" min="1" max="4" tooltiptext="&precedence_tooltip;" />
+											<label control="bookmark_precedence_u" value="&bookmark_precedence;" />
+											<textbox id="bookmark_precedence_u" size="1" maxlength="1" type="number" min="1" max="4" tooltiptext="&precedence_tooltip;" />
+										</row>
+									</rows>
+								</grid>
+							</groupbox>
+						</tabpanel>
+					</tabpanels>
+				</tabbox>
+			</tabpanel>
+			<tabpanel orient="vertical">
+				<groupbox>
+					<hbox align="center">
+						<checkbox id="autosort" label="&autosort;" oncommand="SortPlaces.saveAutoSort();" tooltiptext="&autosort_tooltip;" />
+						<label id="delay_label" control="delay" value="&delay;"/>
+						<textbox id="delay" size="3" maxlength="3" type="number" min="3" max="999" tooltiptext="&delay_tooltip;" />
+					</hbox>
+					<checkbox id="sort_folders" label="&sort_folders;" oncommand="SortPlaces.toggleSortFolders();" tooltiptext="&sortfolders_tooltip;" />
+				</groupbox>
+				<groupbox>
+					<grid>
+						<rows>
+							<row align="center">
+								<checkbox id="include" label="&include_folders;" oncommand="SortPlaces.toggleIncludeFolders();" tooltiptext="&selection_default;" />
+								<button id="include_folders" label="&selectfolder_button;" oncommand="SortPlaces.selectBookmarkFolder(true);" tooltiptext="&includefolders_tooltip;" />
+							</row>
+							<row align="center">
+								<checkbox id="exclude" label="&exclude_folders;" oncommand="SortPlaces.toggleExcludeFolders();" tooltiptext="&selection_default;" />
+								<button id="exclude_folders" label="&selectfolder_button;" oncommand="SortPlaces.selectBookmarkFolder(false);" tooltiptext="&excludefolders_tooltip;" />
+							</row>
+						</rows>
+					</grid>
+				</groupbox>
+				<groupbox>
+					<caption label="&display;"/>
+					<grid>
+						<rows>
+							<row align="center">
+								<checkbox id="bookmarks_menu" label="&show_bm;" tooltiptext="&showbm_tooltip;" />
+								<hbox>
+									<checkbox id="org_menu" label="&show_org;" tooltiptext="&showorg_tooltip;" />
+									<checkbox id="manage_menu" label="&show_manage;" tooltiptext="&showmanage_tooltip;" />
+								</hbox>
+							</row>
+							<row align="center">
+								<checkbox id="tools_menu" label="&show_tools;" tooltiptext="&showtools_tooltip;" />
+							</row>
+						</rows>
+					</grid>
+				</groupbox>
+			</tabpanel>
+		</tabpanels>
+	</tabbox>
+</dialog>

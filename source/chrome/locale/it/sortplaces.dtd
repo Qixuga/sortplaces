@@ -1,0 +1,58 @@
+<!ENTITY sp_title "SortPlaces">
+<!ENTITY sp_tooltip "Ordina i segnalibri">
+<!ENTITY sp "Ordina segnalibri">
+<!ENTITY options "Opzioni">
+<!ENTITY left_click "Clic pulsante sinistro: ordina segnalibri">
+<!ENTITY other_click "Altre opzioni pulsante">
+<!ENTITY autosort "Ordina automaticamente">
+<!ENTITY autosort_tooltip "Ordina automaticamente quando i segnalibri vengono modificati">
+<!ENTITY delay "Ritardo">
+<!ENTITY delay_tooltip "Ritardo in secondi prima dell'ordinamento automatico">
+<!ENTITY sort_folders "Ordina diversamente le cartelle">
+<!ENTITY sortfolders_tooltip "Consente un ordinamento delle cartelle distinto da quello degli altri elementi">
+<!ENTITY include_folders "Cartelle da includere">
+<!ENTITY includefolders_tooltip "Cartelle dei segnalibri da ordinare">
+<!ENTITY exclude_folders "Cartelle da escludere">
+<!ENTITY excludefolders_tooltip "Cartelle dei segnalibri da escludere dall'ordinamento">
+<!ENTITY selectfolder_button "Seleziona cartelle">
+<!ENTITY selection_default "Per impostazione predefinita vengono inclusi tutti gli elementi">
+<!ENTITY folder_title "Seleziona cartelle">
+<!ENTITY display "Visualizza opzioni">
+<!ENTITY show_bm "Menu Segnalibri">
+<!ENTITY showbm_tooltip "Mostra le opzioni nel menu Segnalibri">
+<!ENTITY show_tools "Menu Strumenti">
+<!ENTITY showtools_tooltip "Mostra le opzioni nel menu Strumenti">
+<!ENTITY show_org "Libreria">
+<!ENTITY showorg_tooltip "Mostra le opzioni nella Libreria">
+<!ENTITY show_manage "Organizza i segnalibri">
+<!ENTITY showmanage_tooltip "Mostra nel menu Strumenti della finestra Organizza i segnalibri">
+<!ENTITY menu "Menu">
+<!ENTITY toolbar "Barra degli strumenti">
+<!ENTITY unfiled "Non catalogati">
+<!ENTITY sort_by "Ordina per">
+<!ENTITY sort_folder_by "Ordina cartelle per">
+<!ENTITY sort_item_by "Ordina elementi per">
+<!ENTITY then_item_by "Quindi per">
+<!ENTITY reverse_sort "Inverti ordine">
+<!ENTITY reversesort_tooltip "Ordina inversamente">
+<!ENTITY case_insensitive "Ignora maiuscole/minuscole">
+<!ENTITY caseinsensitive_tooltip "Nell'operazione di ordinamento ignora maiuscole/minuscole">
+<!ENTITY date_added "Data di inserimento">
+<!ENTITY dateadded_tooltip "Ordina per data di inserimento">
+<!ENTITY unsorted "Non ordinare">
+<!ENTITY name "Nome">
+<!ENTITY description "Descrizione">
+<!ENTITY keyword "Parola chiave">
+<!ENTITY last_modified "Ultima modifica">
+<!ENTITY last_visit "Ultima visita">
+<!ENTITY visit_count "Numero di visite">
+<!ENTITY location "URL">
+<!ENTITY sort_order "Ordinamento">
+<!ENTITY folder_order "Ordinamento cartelle">
+<!ENTITY precedence_tooltip "A un valore minore corrisponde una precedenza più alta">
+<!ENTITY query_precedence "Ricerche">
+<!ENTITY folder_precedence "Cartelle">
+<!ENTITY livemark_precedence "Segnalibri Live">
+<!ENTITY bookmark_precedence "Segnalibri">
+<!ENTITY dialog_title "Attenzione">
+<!ENTITY report_error "Segnala un problema">

@@ -1,0 +1,58 @@
+<!ENTITY sp_title "SortPlaces">
+<!ENTITY sp_tooltip "Trier les marque-pages">
+<!ENTITY sp "Trier les marque-pages">
+<!ENTITY options "Options">
+<!ENTITY left_click "Clic gauche : Trier les marque-pages">
+<!ENTITY other_click "Autre clic : Modifier les options">
+<!ENTITY autosort "Trier automatiquement">
+<!ENTITY autosort_tooltip "Tri automatique lorsque les marque-pages changent">
+<!ENTITY delay "Délai">
+<!ENTITY delay_tooltip "Délai (en secondes) avant le tri automatique">
+<!ENTITY sort_folders "Trier les dossiers séparément">
+<!ENTITY sortfolders_tooltip "Permettre un autre mode de tri des dossiers pour les autres éléments">
+<!ENTITY include_folders "Choisissez les fichiers à inclure">
+<!ENTITY includefolders_tooltip "Choisissez les dossiers de marque-pages à trier">
+<!ENTITY exclude_folders "Choisissez les dossiers à exclure">
+<!ENTITY excludefolders_tooltip "Choisir les dossiers de marque-pages à exclure du tri">
+<!ENTITY selectfolder_button "Sélectionner le dossier à trier">
+<!ENTITY selection_default "Par défaut, tout sera inclus">
+<!ENTITY folder_title "Choix des dossiers">
+<!ENTITY display "Options d&apos;affichage">
+<!ENTITY show_bm "Menu des marque-pages">
+<!ENTITY showbm_tooltip "Afficher les options dans le menu des marque-pages">
+<!ENTITY show_tools "Menu Outils">
+<!ENTITY showtools_tooltip "Afficher les options dans le menu Outils">
+<!ENTITY show_org "Gestionnaire de marque-pages">
+<!ENTITY showorg_tooltip "Afficher les options dans le gestionnaire de marque-pages">
+<!ENTITY show_manage "Gérer les marque-pages">
+<!ENTITY showmanage_tooltip "Afficher dans le menu de gestion des marque-pages">
+<!ENTITY menu "Menu">
+<!ENTITY toolbar "Barre d&apos;outils">
+<!ENTITY unfiled "Non classé">
+<!ENTITY sort_by "Trier par">
+<!ENTITY sort_folder_by "Trier les dossiers par">
+<!ENTITY sort_item_by "Trier les éléments par">
+<!ENTITY then_item_by "Puis les éléments par">
+<!ENTITY reverse_sort "Inverser l&apos;ordre">
+<!ENTITY reversesort_tooltip "Trier dans l&apos;ordre inverse des noms">
+<!ENTITY case_insensitive "Insensible à la casse">
+<!ENTITY caseinsensitive_tooltip "Ignorer la casse lors du tri">
+<!ENTITY date_added "Date de l&apos;ajout">
+<!ENTITY dateadded_tooltip "Trier par date de l&apos;ajout">
+<!ENTITY unsorted "Non trié">
+<!ENTITY name "Nom">
+<!ENTITY description "Description">
+<!ENTITY keyword "Mot-clé">
+<!ENTITY last_modified "Dernière modification">
+<!ENTITY last_visit "Dernière visite">
+<!ENTITY visit_count "Nombre de visites">
+<!ENTITY location "URL">
+<!ENTITY sort_order "Ordre de tri">
+<!ENTITY folder_order "Tri des dossiers">
+<!ENTITY precedence_tooltip "Les nombres les plus bas ont une priorité plus élevée">
+<!ENTITY query_precedence "Requêtes">
+<!ENTITY folder_precedence "Dossiers">
+<!ENTITY livemark_precedence "Marque-pages dynamiques">
+<!ENTITY bookmark_precedence "Marque-pages">
+<!ENTITY dialog_title "Alerte">
+<!ENTITY report_error "Signaler un problème">

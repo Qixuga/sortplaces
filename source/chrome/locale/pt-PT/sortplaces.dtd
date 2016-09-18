@@ -1,0 +1,58 @@
+<!ENTITY sp_title "SortPlaces">
+<!ENTITY sp_tooltip "Ordenar marcadores">
+<!ENTITY sp "Ordenar marcadores">
+<!ENTITY options "Opções">
+<!ENTITY left_click "Clique esquerdo: Ordenar marcadores">
+<!ENTITY other_click "Outro-clique: Opções">
+<!ENTITY autosort "Ordenar automaticamente">
+<!ENTITY autosort_tooltip "Ordenar automaticamente quando os marcadores mudam">
+<!ENTITY delay "Atraso">
+<!ENTITY delay_tooltip "Atraso em segundos antes de ordenar automaticamente">
+<!ENTITY sort_folders "Ordenar pastas separadamente">
+<!ENTITY sortfolders_tooltip "Permitir que a ordem das pastas seja diferente de outros itens">
+<!ENTITY include_folders "Seleccione as pastas a incluir">
+<!ENTITY includefolders_tooltip "Seleccione as pastas dos marcadores a ordenar">
+<!ENTITY exclude_folders "Seleccione as pastas a excluir">
+<!ENTITY excludefolders_tooltip "seleccione as pastas de marcadores a excluir da ordem">
+<!ENTITY selectfolder_button "Seleccione pasta a ordenar">
+<!ENTITY selection_default "Por pré-definição, será tudo incluído">
+<!ENTITY folder_title "seleccione as pastas">
+<!ENTITY display "Opções de apresentação">
+<!ENTITY show_bm "Menu de marcadores">
+<!ENTITY showbm_tooltip "Mostrar opções no menu marcadores">
+<!ENTITY show_tools "Menu ferramentas">
+<!ENTITY showtools_tooltip "Mostrar opções nos menu ferramentas">
+<!ENTITY show_org "Organizador de marcadores">
+<!ENTITY showorg_tooltip "Mostrar opções do organizador de marcadores">
+<!ENTITY show_manage "Gerir Marcadores">
+<!ENTITY showmanage_tooltip "Mostrar no menu de ferramentas de gestão de marcadores">
+<!ENTITY menu "Menu">
+<!ENTITY toolbar "Barra de ferramentas">
+<!ENTITY unfiled "Não preenchido">
+<!ENTITY sort_by "Ordenar por">
+<!ENTITY sort_folder_by "Ordenar pastas por">
+<!ENTITY sort_item_by "Ordenar itens por">
+<!ENTITY then_item_by "Depois itens por">
+<!ENTITY reverse_sort "Ordem invertida">
+<!ENTITY reversesort_tooltip "Ordenar inversamente">
+<!ENTITY case_insensitive "Sensível a maiúsculas">
+<!ENTITY caseinsensitive_tooltip "Ignorar sensibilidade ao ordenar">
+<!ENTITY date_added "Adicionado a">
+<!ENTITY dateadded_tooltip "Ordenar por data de adição">
+<!ENTITY unsorted "Desordenado">
+<!ENTITY name "Nome">
+<!ENTITY description "Descrição">
+<!ENTITY keyword "Palavra-chave">
+<!ENTITY last_modified "Última modificação">
+<!ENTITY last_visit "Última visita">
+<!ENTITY visit_count "Contador de visitas">
+<!ENTITY location "URL">
+<!ENTITY sort_order "Ordem para ordenar">
+<!ENTITY folder_order "Ordem da pasta">
+<!ENTITY precedence_tooltip "Números baixos têm precedências maiores">
+<!ENTITY query_precedence "Pedidos">
+<!ENTITY folder_precedence "Pastas">
+<!ENTITY livemark_precedence "Marcadores activos">
+<!ENTITY bookmark_precedence "Marcadores">
+<!ENTITY dialog_title "Alerta">
+<!ENTITY report_error "Indicar problema">

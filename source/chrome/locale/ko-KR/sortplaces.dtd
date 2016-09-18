@@ -1,0 +1,58 @@
+<!ENTITY sp_title "SortPlaces">
+<!ENTITY sp_tooltip "북마크를 정렬합니다.">
+<!ENTITY sp "북마크 정렬">
+<!ENTITY options "설정">
+<!ENTITY left_click "왼쪽-클릭: 북마크 정렬">
+<!ENTITY other_click "기타-클릭: 설정 편집">
+<!ENTITY autosort "자동 정렬">
+<!ENTITY autosort_tooltip "북마크가 변경되면 자동으로 정렬합니다.">
+<!ENTITY delay "대기">
+<!ENTITY delay_tooltip "자동 정렬 전에 대기 시간(초)입니다.">
+<!ENTITY sort_folders "폴더는 개별적으로 정렬">
+<!ENTITY sortfolders_tooltip "다른 항목과 별도로 폴더를 정렬합니다.">
+<!ENTITY include_folders "포함시킬 폴더 선택">
+<!ENTITY includefolders_tooltip "정렬할 북마크 폴더 선택">
+<!ENTITY exclude_folders "제외시킬 폴더 선택">
+<!ENTITY excludefolders_tooltip "정렬에서 제외할 북마크 폴더를 선택하십시오.">
+<!ENTITY selectfolder_button "정렬할 폴더 선택">
+<!ENTITY selection_default "모두 포함 (기본값)">
+<!ENTITY folder_title "폴더 선택">
+<!ENTITY display "표시 설정">
+<!ENTITY show_bm "북마크 메뉴">
+<!ENTITY showbm_tooltip "북마크 메뉴에 설정 보이기">
+<!ENTITY show_tools "도구 메뉴">
+<!ENTITY showtools_tooltip "도구 메뉴에 설정 보이기">
+<!ENTITY show_org "북마크 수첩">
+<!ENTITY showorg_tooltip "북마크 수첩에 설정 보이기">
+<!ENTITY show_manage "북마크 관리">
+<!ENTITY showmanage_tooltip "북마크 관리 도구 메뉴에 보이기">
+<!ENTITY menu "메뉴">
+<!ENTITY toolbar "도구 모음">
+<!ENTITY unfiled "범주 없음">
+<!ENTITY sort_by "정렬1">
+<!ENTITY sort_folder_by "폴더 정렬">
+<!ENTITY sort_item_by "항목 정렬">
+<!ENTITY then_item_by "그 외 정렬">
+<!ENTITY reverse_sort "역순서">
+<!ENTITY reversesort_tooltip "역순서로 정렬합니다.">
+<!ENTITY case_insensitive "대/소문자 구별">
+<!ENTITY caseinsensitive_tooltip "정렬 시 대/소문자를 무시합니다.">
+<!ENTITY date_added "추가된 날짜">
+<!ENTITY dateadded_tooltip "추가된 날짜 순서로 정렬합니다.">
+<!ENTITY unsorted "정렬 안 함">
+<!ENTITY name "이름">
+<!ENTITY description "설명">
+<!ENTITY keyword "검색어">
+<!ENTITY last_modified "수정한 날짜">
+<!ENTITY last_visit "방문한 날짜">
+<!ENTITY visit_count "방문한 횟수">
+<!ENTITY location "주소(URL)">
+<!ENTITY sort_order "정렬 순서">
+<!ENTITY folder_order "폴더 순서">
+<!ENTITY precedence_tooltip "낮은 번호가 먼저 처리됩니다.">
+<!ENTITY query_precedence "질의">
+<!ENTITY folder_precedence "폴더">
+<!ENTITY livemark_precedence "라이브 북마크">
+<!ENTITY bookmark_precedence "북마크">
+<!ENTITY dialog_title "경고">
+<!ENTITY report_error "문제 보고하기">

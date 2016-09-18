@@ -1,0 +1,58 @@
+<!ENTITY sp_title "SortPlaces">
+<!ENTITY sp_tooltip "Sorter bogmærker">
+<!ENTITY sp "Sorter bogmærker">
+<!ENTITY options "Indstillinger">
+<!ENTITY left_click "Venstre-klik: Sorter bogmærker">
+<!ENTITY other_click "Andre-klik: Vælg indstillinger">
+<!ENTITY autosort "Sorter automatisk">
+<!ENTITY autosort_tooltip "Sorter automatisk når bogmærkerne ændres">
+<!ENTITY delay "Forsink">
+<!ENTITY delay_tooltip "Forsinkelse i sekunder før automatisk sortering">
+<!ENTITY sort_folders "Sorter mapper separat">
+<!ENTITY sortfolders_tooltip "Tillad at rækkefølgen for mappesortering er anderledes end for andre punkter">
+<!ENTITY include_folders "Angiv mapper som medtages">
+<!ENTITY includefolders_tooltip "Angiv bogmærkemapper som sorteres">
+<!ENTITY exclude_folders "Angiv mapper som undlades">
+<!ENTITY excludefolders_tooltip "Angiv de bogmærkemapper som skal undlades fra sortering">
+<!ENTITY selectfolder_button "Vælg mapper">
+<!ENTITY selection_default "Som standard medtagets alt">
+<!ENTITY folder_title "Valg mapper">
+<!ENTITY display "Vis indstillinger">
+<!ENTITY show_bm "Bogmærkemenu">
+<!ENTITY showbm_tooltip "Vis indstillinger på menuen bogmærker">
+<!ENTITY show_tools "Funktionsmenu">
+<!ENTITY showtools_tooltip "Vis indstillinger i menuen funktioner">
+<!ENTITY show_org "Arranger bogmærker">
+<!ENTITY showorg_tooltip "Vis indstillinger i arranger bogmærker">
+<!ENTITY show_manage "Arranger bogmærker">
+<!ENTITY showmanage_tooltip "Vis på menuen funktioner i Arranger bogmærker">
+<!ENTITY menu "Menu">
+<!ENTITY toolbar "Værktøjslinje">
+<!ENTITY unfiled "Udokumenteret">
+<!ENTITY sort_by "Sorter efter">
+<!ENTITY sort_folder_by "Sorter mapper efter">
+<!ENTITY sort_item_by "Sorter punkter efter">
+<!ENTITY then_item_by "Så punkter efter">
+<!ENTITY reverse_sort "Omvendt rækkefølge">
+<!ENTITY reversesort_tooltip "Sorter i omvendt rækkefølge">
+<!ENTITY case_insensitive "Ikke versalfølsom">
+<!ENTITY caseinsensitive_tooltip "Ignorer forskel på små og store bogstaver ved sortering">
+<!ENTITY date_added "Tilføjelsesdato">
+<!ENTITY dateadded_tooltip "Sorter efter tilføjelsesdato">
+<!ENTITY unsorted "Usorteret">
+<!ENTITY name "Navn">
+<!ENTITY description "Beskrivelse">
+<!ENTITY keyword "Nøgleord">
+<!ENTITY last_modified "Sidst ændret">
+<!ENTITY last_visit "Sidst besøgt">
+<!ENTITY visit_count "Besøgsantal">
+<!ENTITY location "URL">
+<!ENTITY sort_order "Sorteringsrækkefølge">
+<!ENTITY folder_order "Mapperækkefølge">
+<!ENTITY precedence_tooltip "Mindre numre har højre prioritet">
+<!ENTITY query_precedence "Forespørgsler">
+<!ENTITY folder_precedence "Mapper">
+<!ENTITY livemark_precedence "Live-mærker">
+<!ENTITY bookmark_precedence "Bogmærker">
+<!ENTITY dialog_title "Alarm">
+<!ENTITY report_error "Rapporter problem">

@@ -1,0 +1,58 @@
+<!ENTITY sp_title "SortPlaces">
+<!ENTITY sp_tooltip "Ordenar marcadores">
+<!ENTITY sp "Ordenar marcadores">
+<!ENTITY options "Opciones">
+<!ENTITY left_click "Botón izquierdo: ordenar los marcadores">
+<!ENTITY other_click "Otro botón: Ajustar las opciones">
+<!ENTITY autosort "Ordenar automáticamente">
+<!ENTITY autosort_tooltip "Ordenar automáticamente cuando cambien los marcadores">
+<!ENTITY delay "Retraso">
+<!ENTITY delay_tooltip "Retraso en segundos antes de la ordenación automática">
+<!ENTITY sort_folders "Ordenar las carpetas por separado">
+<!ENTITY sortfolders_tooltip "Permite ordenar las carpetas de un modo diferente al resto">
+<!ENTITY include_folders "Seleccione las carpetas a incluir">
+<!ENTITY includefolders_tooltip "Seleccione las carpetas de marcadores a ordenar">
+<!ENTITY exclude_folders "Seleccione las carpetas a excluir">
+<!ENTITY excludefolders_tooltip "Seleccione las carpetas de marcadores a excluir de la ordenación">
+<!ENTITY selectfolder_button "Seleccionar la carpeta a ordenar">
+<!ENTITY selection_default "Por defecto, se incluirá todo">
+<!ENTITY folder_title "Seleccionar carpetas">
+<!ENTITY display "Mostrar opciones">
+<!ENTITY show_bm "Menú marcadores">
+<!ENTITY showbm_tooltip "Mostrar las opciones en el menú marcadores">
+<!ENTITY show_tools "Menú herramientas">
+<!ENTITY showtools_tooltip "Mostrar opciones en el menú herramientas">
+<!ENTITY show_org "Catálogo">
+<!ENTITY showorg_tooltip "Mostrar opciones en el catálogo">
+<!ENTITY show_manage "Administrar marcadores">
+<!ENTITY showmanage_tooltip "Mostrar en el menú de Herramientas Administrar marcadores">
+<!ENTITY menu "Menú">
+<!ENTITY toolbar "Barra de herramientas">
+<!ENTITY unfiled "Sin clasificar">
+<!ENTITY sort_by "Ordenar por">
+<!ENTITY sort_folder_by "Ordenar carpetas por">
+<!ENTITY sort_item_by "Ordenar elementos por">
+<!ENTITY then_item_by "Después elementos por">
+<!ENTITY reverse_sort "Orden inverso">
+<!ENTITY reversesort_tooltip "Ordenar en orden inverso">
+<!ENTITY case_insensitive "No distinguir las mayúsculas">
+<!ENTITY caseinsensitive_tooltip "Ignorar las mayúsculas al ordenar">
+<!ENTITY date_added "Fecha de creación">
+<!ENTITY dateadded_tooltip "Ordenar por la fecha de creación">
+<!ENTITY unsorted "Sin ordenar">
+<!ENTITY name "Nombre">
+<!ENTITY description "Descripción">
+<!ENTITY keyword "Palabra clave">
+<!ENTITY last_modified "Última mofidicación">
+<!ENTITY last_visit "Última visita">
+<!ENTITY visit_count "Número de visitas">
+<!ENTITY location "URL">
+<!ENTITY sort_order "Orden para ordenar">
+<!ENTITY folder_order "Orden de carpetas">
+<!ENTITY precedence_tooltip "Los números bajos tienen precedencia mayor">
+<!ENTITY query_precedence "Consultas">
+<!ENTITY folder_precedence "Carpetas">
+<!ENTITY livemark_precedence "Marcadores dinámicos">
+<!ENTITY bookmark_precedence "Marcadores">
+<!ENTITY dialog_title "Atención">
+<!ENTITY report_error "Informar del problema">

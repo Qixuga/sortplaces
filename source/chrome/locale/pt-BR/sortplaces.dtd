@@ -1,0 +1,58 @@
+<!ENTITY sp_title "SortPlaces">
+<!ENTITY sp_tooltip "Ordenar Favoritos">
+<!ENTITY sp "Ordenar Favoritos">
+<!ENTITY options "Opções">
+<!ENTITY left_click "Botão esquerdo do mouse: Ordenar Favoritos">
+<!ENTITY other_click "Outros botões do mouse: Definir opções">
+<!ENTITY autosort "Ordenar automaticamente">
+<!ENTITY autosort_tooltip "Ordena automaticamente quando há alteração nos favoritos">
+<!ENTITY delay "Atraso">
+<!ENTITY delay_tooltip "Atraso, em segundos, antes de ordenar automaticamente">
+<!ENTITY sort_folders "Ordenar pastas separadamente">
+<!ENTITY sortfolders_tooltip "Permitir que a ordem de pastas seja diferente de outros itens">
+<!ENTITY include_folders "Selecionar pastas a incluir">
+<!ENTITY includefolders_tooltip "Selecionar as pastas de favoritos a serem ordenadas">
+<!ENTITY exclude_folders "Selecionar pastas a excluir">
+<!ENTITY excludefolders_tooltip "Seleciona as pastas de favoritos a serem excluídas da ordenação">
+<!ENTITY selectfolder_button "Selecionar pasta">
+<!ENTITY selection_default "Por padrão, tudo será incluído">
+<!ENTITY folder_title "Selecionar pastas">
+<!ENTITY display "Opções de exibição">
+<!ENTITY show_bm "Menu Favoritos">
+<!ENTITY showbm_tooltip "Exibir opções no menu Favoritos">
+<!ENTITY show_tools "Menu Ferramentas">
+<!ENTITY showtools_tooltip "Exibir opções no menu Ferramentas">
+<!ENTITY show_org "Organizador de Favoritos">
+<!ENTITY showorg_tooltip "Exibir opções no Organizador de Favoritos">
+<!ENTITY show_manage "Gerenciar Favoritos">
+<!ENTITY showmanage_tooltip "Exibir no menu de ferramentas de organização de favoritos">
+<!ENTITY menu "Menu">
+<!ENTITY toolbar "Barra de Ferramentas">
+<!ENTITY unfiled "Não listado">
+<!ENTITY sort_by "Ordenar por">
+<!ENTITY sort_folder_by "Ordenar pastas por">
+<!ENTITY sort_item_by "Ordenar itens por">
+<!ENTITY then_item_by "Depois itens por">
+<!ENTITY reverse_sort "Ordem inversa">
+<!ENTITY reversesort_tooltip "Ordena em ordem inversa">
+<!ENTITY case_insensitive "Ignorar maiúsculas e minúsculas">
+<!ENTITY caseinsensitive_tooltip "Ignora maiúsculas e minúsculas durante a ordenação">
+<!ENTITY date_added "Data de criação">
+<!ENTITY dateadded_tooltip "Ordena pela data de criação">
+<!ENTITY unsorted "Não ordenado">
+<!ENTITY name "Nome">
+<!ENTITY description "Descrição">
+<!ENTITY keyword "Chave">
+<!ENTITY last_modified "Última modificação">
+<!ENTITY last_visit "Última visita">
+<!ENTITY visit_count "Contador de visitas">
+<!ENTITY location "URL">
+<!ENTITY sort_order "Ordenação">
+<!ENTITY folder_order "Ordem de pastas">
+<!ENTITY precedence_tooltip "Números menores têm maior precedência">
+<!ENTITY query_precedence "Pesquisas">
+<!ENTITY folder_precedence "Pastas">
+<!ENTITY livemark_precedence "Livemarks">
+<!ENTITY bookmark_precedence "Favoritos">
+<!ENTITY dialog_title "Alerta">
+<!ENTITY report_error "Reportar Problema">

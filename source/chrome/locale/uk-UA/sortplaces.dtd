@@ -1,0 +1,58 @@
+<!ENTITY sp_title "SortPlaces">
+<!ENTITY sp_tooltip "Сортування закладок">
+<!ENTITY sp "Сортування закладок">
+<!ENTITY options "Параметри">
+<!ENTITY left_click "Ліва кнопка миші: Сортування закладок">
+<!ENTITY other_click "Інші кнопки миші: Встановлення параметрів">
+<!ENTITY autosort "Сортувати автоматично">
+<!ENTITY autosort_tooltip "Автоматичне сортування закладок при їх зміні">
+<!ENTITY delay "Затримка">
+<!ENTITY delay_tooltip "Затримка на декілька секунд перед автоматичним сортуванням">
+<!ENTITY sort_folders "Сортувати папки окремо">
+<!ENTITY sortfolders_tooltip "Дозволити, щоб порядок сортування був окремим для кожної папки">
+<!ENTITY include_folders "Оберіть папки для включення">
+<!ENTITY includefolders_tooltip "Оберіть папки закладок для сортування">
+<!ENTITY exclude_folders "Оберіть папки для виключення">
+<!ENTITY excludefolders_tooltip "Виберіть папки закладок, щоб виключити їх з сортування">
+<!ENTITY selectfolder_button "Обрати папку для сортування">
+<!ENTITY selection_default "За замовчуванням, все буде включено">
+<!ENTITY folder_title "Вибір папок">
+<!ENTITY display "Показувати параметри">
+<!ENTITY show_bm "Меню закладок">
+<!ENTITY showbm_tooltip "Показувати параметри на Меню закладок">
+<!ENTITY show_tools "Меню інструментів">
+<!ENTITY showtools_tooltip "Показувати параметри на Меню інструментів">
+<!ENTITY show_org "Організатор закладок">
+<!ENTITY showorg_tooltip "Показувати паетри на Організаторі закладок">
+<!ENTITY show_manage "Впорядкування закладок">
+<!ENTITY showmanage_tooltip "Відображає у меню «Інструменти» пункт «Впорядкування закладок»">
+<!ENTITY menu "Меню">
+<!ENTITY toolbar "Панель інструментів">
+<!ENTITY unfiled "Не підшиті">
+<!ENTITY sort_by "Сортувати за">
+<!ENTITY sort_folder_by "Сортувати папки за">
+<!ENTITY sort_item_by "Сортувати елементи за">
+<!ENTITY then_item_by "Потім елементи за">
+<!ENTITY reverse_sort "Змінити порядок на протилежний">
+<!ENTITY reversesort_tooltip "Сортувати у протилежному порядку">
+<!ENTITY case_insensitive "Нечутливість до регістру">
+<!ENTITY caseinsensitive_tooltip "Ігнорування регістру при сортуванні">
+<!ENTITY date_added "Датою додавання">
+<!ENTITY dateadded_tooltip "Сортування за датою додавання закладок">
+<!ENTITY unsorted "Не сортувати">
+<!ENTITY name "Назвою">
+<!ENTITY description "Описом">
+<!ENTITY keyword "Скороченням">
+<!ENTITY last_modified "Часом останньої зміни">
+<!ENTITY last_visit "Часом останнього відвідування">
+<!ENTITY visit_count "Лічильником відвідувань">
+<!ENTITY location "Адресою">
+<!ENTITY sort_order "Порядок сортування">
+<!ENTITY folder_order "Послідовність папок">
+<!ENTITY precedence_tooltip "Менші номери мають більший пріоритет">
+<!ENTITY query_precedence "Запити">
+<!ENTITY folder_precedence "Папки">
+<!ENTITY livemark_precedence "Живі закладки">
+<!ENTITY bookmark_precedence "Закладки">
+<!ENTITY dialog_title "Попередження">
+<!ENTITY report_error "Повідомити про проблему">

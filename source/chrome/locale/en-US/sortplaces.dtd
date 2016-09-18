@@ -1,0 +1,58 @@
+<!ENTITY sp_title "SortPlaces">
+<!ENTITY sp_tooltip "Sort Bookmarks">
+<!ENTITY sp "Sort Bookmarks">
+<!ENTITY options "Options">
+<!ENTITY left_click "Left-Click: Sort bookmarks">
+<!ENTITY other_click "Other-Click: Set options">
+<!ENTITY autosort "Sort automatically">
+<!ENTITY autosort_tooltip "Automatically sort when bookmarks change">
+<!ENTITY delay "Delay">
+<!ENTITY delay_tooltip "Delay in seconds before automatically sorting">
+<!ENTITY sort_folders "Sort folders separately">
+<!ENTITY sortfolders_tooltip "Allow the folder sort order to be different to other items">
+<!ENTITY include_folders "Select folders to include">
+<!ENTITY includefolders_tooltip "Select the bookmark folders to sort">
+<!ENTITY exclude_folders "Select folders to exclude">
+<!ENTITY excludefolders_tooltip "Select the bookmark folders to exclude from the sort">
+<!ENTITY selectfolder_button "Select folders">
+<!ENTITY selection_default "By default, everything will be included">
+<!ENTITY folder_title "Select folders">
+<!ENTITY display "Display options">
+<!ENTITY show_bm "Bookmarks menu">
+<!ENTITY showbm_tooltip "Show options on Bookmarks menu">
+<!ENTITY show_tools "Tools menu">
+<!ENTITY showtools_tooltip "Show options on Tools menu">
+<!ENTITY show_org "Bookmarks Organizer">
+<!ENTITY showorg_tooltip "Show options on Bookmarks Organizer">
+<!ENTITY show_manage "Manage Bookmarks">
+<!ENTITY showmanage_tooltip "Display on Manage Bookmarks Tools menu">
+<!ENTITY menu "Menu">
+<!ENTITY toolbar "Toolbar">
+<!ENTITY unfiled "Unfiled">
+<!ENTITY sort_by "Sort by">
+<!ENTITY sort_folder_by "Sort folders by">
+<!ENTITY sort_item_by "Sort items by">
+<!ENTITY then_item_by "Then items by">
+<!ENTITY reverse_sort "Reverse order">
+<!ENTITY reversesort_tooltip "Sort in reverse order">
+<!ENTITY case_insensitive "Case insensitive">
+<!ENTITY caseinsensitive_tooltip "Ignore case when sorting">
+<!ENTITY date_added "Date added">
+<!ENTITY dateadded_tooltip "Sort by date added">
+<!ENTITY unsorted "Unsorted">
+<!ENTITY name "Name">
+<!ENTITY description "Description">
+<!ENTITY keyword "Keyword">
+<!ENTITY last_modified "Last modified">
+<!ENTITY last_visit "Last visit">
+<!ENTITY visit_count "Visit count">
+<!ENTITY location "URL">
+<!ENTITY sort_order "Sort order">
+<!ENTITY folder_order "Folder ordering">
+<!ENTITY precedence_tooltip "Lower numbers have higher precedence">
+<!ENTITY query_precedence "Queries">
+<!ENTITY folder_precedence "Folders">
+<!ENTITY livemark_precedence "Livemarks">
+<!ENTITY bookmark_precedence "Bookmarks">
+<!ENTITY dialog_title "Alert">
+<!ENTITY report_error "Report Problem">
