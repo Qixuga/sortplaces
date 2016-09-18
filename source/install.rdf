@@ -8,13 +8,14 @@
     <em:version>1.9.3</em:version>
 
     <em:type>2</em:type>
-    <em:homepageURL>http://www.andyhalford.com/sortplaces/index.html</em:homepageURL>
+    <em:homepageURL>https://github.com/Qixuga/sortplaces</em:homepageURL>
     <em:iconURL>chrome://sortplaces/skin/icon48.png</em:iconURL>
     <em:icon64URL>chrome://sortplaces/skin/icon64.png</em:icon64URL>
     <em:optionsURL>chrome://sortplaces/content/options.xul</em:optionsURL>
 
     <em:creator>Andy Halford</em:creator>
     <em:contributor>Gerd Roethig</em:contributor>
+    <em:contributor>Frank Kirchner</em:contributor>
     <em:translator>Goofy (fr)</em:translator>
     <em:translator>Leszek (teo) Zyczkowski (pl)</em:translator>
     <em:translator>PiVV (ru-RU)</em:translator>
